@@ -1,0 +1,33 @@
+{
+  "name": "my-single-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "single-spa": "^5.5.0",
+    "zone.js": "^0.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-eslint": "10.0.3",
+    "babel-loader": "8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "single-spa-react-app": "^0.1.2",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --config webpack.config.js --hot --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}
